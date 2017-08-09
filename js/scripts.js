@@ -10,7 +10,7 @@ $(document).ready(function(){
     $(".address").text(addressInput);
     $(".phone").text(addressInput);
     $(".relationship").text(relationshipInput);
-    $(".contact").append("<br>" +"<br>" + nameInput + "<br>" + addressInput + "<br>" + phoneInput +  "<br>" + relationshipInput);
+    $(".contact").append( "<div class='well'>" + "<h1>" + nameInput + "</h1>" + "<br>" + addressInput + "<br>" + phoneInput +  "<br>" + relationshipInput + "</div>" );
 
 
   });
