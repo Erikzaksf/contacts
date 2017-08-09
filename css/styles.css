@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 #entry {
   width: 30%;
+}
+
+.well{
+  color: #4FC1D6;
+  background-color: #026577;
+}
+body{
+  background-color: #04ADCD;
+  font-family: 'Cardo', serif;
+}
+.jumbotron{
+  text-align: center;
+  background-color: #026577;
+  font-family: 'Montserrat', sans-serif;
+
+
 }

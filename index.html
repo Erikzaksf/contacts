@@ -9,9 +9,13 @@
     <title>Address Book</title>
   </head>
   <body>
+    <div class="jumbotron">
+      <h1>Address Book</h1>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
     <div class="container">
       <div>
-        <form id="formOne">
+        <form id="formOne" class="well">
           <div class="form-group">
             <label for="name">Name</label>
             <input id="name" class="form-control" type="text">
@@ -31,9 +35,7 @@
           <button type="submit" class="btn">Add Contact</button>
         </form>
       </div>
-      <div id="entry">
-        <span class="contact"></span>
-      </div>
+      <span id="entry" class="contact"></span>
     </div>
   </body>
 </html>
